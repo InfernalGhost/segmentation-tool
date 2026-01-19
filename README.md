@@ -2,7 +2,7 @@
 
 ## Overview
 
-The goal of this project is to automatically segment text files into a fixed number of excerpts while allowing fine-grained control over the minimum and maximum size of each excerpt. If the size constraints prevent the extraction of the intended number of excerpts, the script will extract fewer excerpts accordingly.
+This tool is designed to automatically segment text files into excerpts of approximately equal length. It provides fine-grained control over the minimum and maximum size of each excerpt, while preserving paragraph boundaries and avoiding paragraph splits.
 
 The segmentation process is fully automated and operates over a directory of input text files.
 
