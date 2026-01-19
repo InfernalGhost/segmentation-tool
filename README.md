@@ -2,7 +2,7 @@
 
 ## Overview
 
-This tool is designed to automatically segment text files into excerpts of approximately equal length. It provides fine-grained control over the minimum and maximum size of each excerpt, while preserving paragraph boundaries and avoiding paragraph splits.
+This tool is designed to automatically segment text files into excerpts of approximately equal length. It provides fine-grained control over the minimum and maximum size of each excerpt, while preserving paragraph boundaries and avoiding paragraph splits. It also provides control over the number of excerpts to be extracted. The excerpts are extracted from different parts of the text, evenly distributed throughout. For example, if 10 excerpts are generated, they are sampled from roughly 0%, 10%, 20%, … up to 90% of the text.
 
 The segmentation process is fully automated and operates over a directory of input text files.
 
@@ -15,7 +15,7 @@ To run the segmentation process, execute `script.sh`.
 Running `script.sh` will:
 
 - Process **every `.txt` file** located in the `data/` directory
-- Segment each text into **a maximum of 10 excerpts**
+- Segment each text into **a maximum of n excerpts**
 - Create a **dedicated directory for each processed text**, containing the corresponding excerpts
 
 ## Output Structure
