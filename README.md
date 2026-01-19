@@ -2,7 +2,7 @@
 
 ## Overview
 
-This tool is designed to automatically segment text files into excerpts of approximately equal length. It provides fine-grained control over the minimum and maximum size of each excerpt, while preserving paragraph boundaries and avoiding paragraph splits. It also provides control over the number of excerpts to be extracted. The excerpts are extracted from different parts of the text, evenly distributed throughout. For example, if 10 excerpts are generated, they are sampled from roughly 0%, 10%, 20%, … up to 90% of the text.
+This tool is designed to automatically segment text files into excerpts of approximately equal length. It provides fine-grained control over the minimum and maximum size of each excerpt, while preserving paragraph boundaries and avoiding paragraph splits. It also provides control over the number of excerpts to be extracted. The excerpts are extracted from different parts of the text and are evenly distributed throughout it. For example, if 10 excerpts are selected, they are sampled from positions that roughly correspond to 0%, 10%, 20%, … up to 90% of the text length.
 
 The segmentation process is fully automated and operates over a directory of input text files.
 
